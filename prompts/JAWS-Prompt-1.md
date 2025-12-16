@@ -14,7 +14,7 @@ For each `issue returned`
 If you are unable to send the message, show me the reasons and provide suggestions on how to fix any errors.
 
 ## Target Slack Users
-`TPM email` = rgarcia@redhat.com
+`TPM email` = tpm@example.com
 
 ### Overdue Issues
 `target slack user email` = `TPM Email`
@@ -29,9 +29,7 @@ Here is a table with `email` and `Slack Member ID` that you can use to find the 
 
 | email | Member ID |
 |:------|:---|
-| rgarcia@redhat.com | U012X6W2SHZ |
-| kseiter@redhat.com | U08JGLV9C1G |
-| njean@redhat.com | U03SZC8SKND | 
+| you@example.com | ABC1234 |
 
 ### Sending Messages
 
@@ -41,7 +39,7 @@ Use the tool `mcp\_slack\_send\_dm` to send messages directly to slack members.
 
 ### Jira Server Information
 
-JIRA\_BASE\_URL is [https://issues.redhat.com](https://issues.redhat.com)
+JIRA\_BASE\_URL is [https://yourjiraserver.com](https://yourjiraserver.com)
 
 ### JQL Queries
 
