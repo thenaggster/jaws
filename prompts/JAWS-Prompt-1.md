@@ -46,13 +46,13 @@ JIRA\_BASE\_URL is [https://yourjiraserver.com](https://yourjiraserver.com)
 #### Overdue Issues
 
 ```
-filter=RosaPgmChk_Overdue
+filter=pgmChk_Overdue
 ```
 
 #### Fishy Issues
 
 ```
-filter = RosaPgmChk_FishyStatus
+filter = pgmChk_FishyStatus
 ```
 
 ### FIELDS TO FETCH
@@ -103,11 +103,11 @@ If there is `more than one issue.`
 
 If there is `only one issue`, add this content to the message:
 
-    While doing the ROSA program check I noticed that the following issue is fishy: 
+    While doing the our program check I noticed that the following issue is fishy: 
 
 else, add this content to the message:
 
-    While doing the ROSA program check I noticed that the following issues are fishy: 
+    While doing our program check I noticed that the following issues are fishy: 
 
 Then add the info about the issues to the message:
 
