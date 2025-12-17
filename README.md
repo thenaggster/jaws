@@ -29,12 +29,12 @@ J.A.W.S. relies on specific JQL filters to hunt.
 ### 1\. Overdue Filter
 
   * **Logic:** Finds items past their deadline.
-  * **Default JQL:** `filter=RosaPgmChk_Overdue`
+  * **Default JQL:** `filter=pgmChk_Overdue`
 
 ### 2\. Fishy Filter
 
   * **Logic:** Finds items that smell stale (no updates in 3 weeks).
-  * **Default JQL:** `filter=RosaPgmChk_FishyStatus`
+  * **Default JQL:** `filter=pgmChk_FishyStatus`
 
 -----
 
